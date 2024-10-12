@@ -20,8 +20,7 @@ console.log(youngStudents);
 
 
 
-
-// Assignment #2
+// Assignment 2
 const products = [
     { name: 'Laptop', price: 1200, category: 'Electronics', rating: 4.5 },
     { name: 'Phone', price: 800, category: 'Electronics', rating: 4.7 },
@@ -41,7 +40,7 @@ products.forEach(product => {
 products.forEach(product => {
     product.price *= 1.10; // Increase price by 10%
 });
-console.log(products)
+console.log(products);
 
 // Assignment #2 Part 2C
 const highlyRatedProducts = products.filter(product => product.rating >= 4.5);
