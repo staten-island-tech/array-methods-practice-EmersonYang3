@@ -41,6 +41,7 @@ products.forEach(product => {
 products.forEach(product => {
     product.price *= 1.10; // Increase price by 10%
 });
+console.log(products)
 
 // Assignment #2 Part 2C
 const highlyRatedProducts = products.filter(product => product.rating >= 4.5);
